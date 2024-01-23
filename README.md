@@ -38,8 +38,42 @@ Cloud computing refers to the delivery of computing services, including storage,
 ## Amazon Web Service (AWS)
 
 
+### what is web services?
+
+A web service is any piece software that makes itself available over the internet and uses a standardized format - such as extensible markup language(XML) or Javascript object Notation(JSON) - for the request and the response of an application programming interface(api) interaction.
+
+### What is AWS?
+
+- AWS is a secure cloud platform that offers a broad set of global cloud-based products.
+- AWS provides you with on-demand access to compute,storage,network,database, and other IT resources and management tools.
+- AWS offers flexiblity
+- you pay only for the individual services you need for as long as you use them.
+- AWS servies work together like building blocks.
+
+
+### Type AWS services
+
+![aws services](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/394e37dd-ac59-4da6-a7ac-da4c722e7c82)
+
+
+### Three ways to interact with AWS
+
+- AWS management console (GUI)
+- AWS CLI : access to services by discrete commands or scripts
+- SDKS : Access servies directly from your code(such as node.js,java python)
+
+
+### Moving to the AWS
+
+- The AWS Cloud Adoption Framework (AWS CAF) was created to help organization develop efficient and effective plans for their cloud adoption journey.
+- The AWS CAF organizes guidance into six areas of focus called perspectives.
+- Perspectives consist of sets of business or technology capabilities that are responsibility of key stakeholders.
+
+![aws cloud adaption framework](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/bf70949d-a096-415e-8307-4cb2c9809a51)
+
 ### Similarities Between Traditional IT and AWS
 ![traditional vs aws similarities](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/79675662-7c83-4cdb-8d30-0d2390f21d66)
+
 
 
 

@@ -16,9 +16,9 @@ Cloud computing refers to the delivery of computing services, including storage,
     - Platform as a service (Paas): Networking->Storage->Servers->Virtualization->os->middleware->runtime.Example of Paas (Heruko,Google App Engine)
     - Software as a service (Saas): Networking->Storage->Servers->Virtualization->os->middleware->runtime->Data->Application (this strucuture is also same for on-premises).Example of Saas(Dropbox,G suite,Microsoft 365)
 
-## Screenshots
+### Service Model
+![cloud service model](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/defa58c0-8025-4d1c-a8f8-333b3f04a8c2)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 - Three main Deployment Model
 
@@ -38,9 +38,10 @@ Cloud computing refers to the delivery of computing services, including storage,
 ## Amazon Web Service (AWS)
 
 
-## Screenshots
+### Similarities Between Traditional IT and AWS
+![traditional vs aws similarities](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/79675662-7c83-4cdb-8d30-0d2390f21d66)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 
 
 

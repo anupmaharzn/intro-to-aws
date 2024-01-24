@@ -18,6 +18,8 @@
     - There are currently 69 Availability Zones worldwide
     - Availability zones consist of discrete data centers
     - They are designed for fault isolation.
+
+![availability zones](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/0eaa7151-dfea-4b54-bd9d-25497cf3c4f5)
     
 ### AWS data centers
 
@@ -33,7 +35,7 @@
     - a global content delivery network(CDN) that delivers content to end users with reduced latency.
     (example: web contents is stored on CDN servers geographically closer to the users and reaches their computer much faster)
 
-### aws infrastructure features
+### Aws infrastructure features
 - elasticity and scalability
 - fault tolerance
 - high availabilty

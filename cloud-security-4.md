@@ -30,6 +30,8 @@
         - Amazon Elastic Block Store (Amazon EBS)
     these are the IaaS(Customer has more flexibility over configuring networking and storage settings,customer is responsible for managing more aspects of the security and configures the access controls))
 
+![aws shared responsibility model](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/6e346c04-9d1f-4d5c-b660-c29da37432fb)
+
 
 ## AWS Identity and Access Management (IAM)
 
@@ -44,10 +46,14 @@
 - IAM is a no-cost AWS account feature.
 
 ### IAM:Essential components
-    - IAM user : A person or application that can authenticate with an AWS account.
-    - IAM group : A collection of IAM users that are granted identical authorization.(Example:admins,developer,tester)
-    - IAM role : Useful mechanism to grant a set of permissions for making aws service requests.(role provides temporary security credentials)
-    - IAM policy : The document that defines which resources can be accessed and the level of access to each
+- IAM user : A person or application that can authenticate with an AWS account
+- IAM group : A collection of IAM users that are granted identical authorization (Example: admins,developer,tester)
+- IAM role : Useful mechanism to grant a set of permissions for making aws service requests(role provides 
+      temporary security credentials)
+- IAM policy : The document that defines which resources can be accessed and the level of access to each
+    
+![IAM essential components](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/45c94dba-b78d-484d-af7d-619c1db5917b)
+
 
 ### Authenticate as an IAM user to gain access
 
@@ -64,13 +70,17 @@
             - IAM user name
             - IAM password
         - if enabled multi-factor authentication (MFA) prompts for an authentication code.
-
+          
 ### IAM:Authorization
 - Assign permissions by creating an IAM policy.
 - Permission determine which resources and operations are allowed:
     - all permissions are implicitly denied by default
     - if something is explicitly deined, it is never allowed
 - NOTE: The scope of IAM service configurations is global.Setting apply across all AWS Regions.
+  
+![authorization what actions are permitted](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/233bf922-12cb-4d89-969b-ef572b7baecc)
+
+![IAM permission flow](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/980747f2-f491-4cc9-81f4-bb5495cd8d13)
 
 ### IAM policies
 - An IAM policy is a document written in javascript object notation (or visual way to do so) that defines permissions
@@ -88,14 +98,17 @@
     - Resource-based policies
         - attached to a resource (such as an ec2, s3 bucket) 
 
+![example of iam role](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/5a072705-b2e8-4892-9ca8-50ff936f16c4)
 
 ## Securing a new AWS Account
+
+![securing new aws account](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/810e6dd8-420f-452f-bd60-1e4a31e954fd)
 
 ## Securing Accounts
 - use of saas like amazon cognito(features like adds user sign-up , sign-in, and access control to your web and mobile applicaitons)
 - use of saas like aws shield(features like safeguards(DDos attacks))
 
-## securing Data
+## Securing Data
 - Encryption encodes data with a secret key, which make it unreadable
     - only those who have the secret key can decode the data
     - aws kms (key management service) can manage your secret keys
@@ -109,11 +122,12 @@
         - amazon RDS managed databases
 
 ### encryption of data in transit
-    - encryption of data in transit(data moving across a network)
-        - tansport layer security(TLS)-Formely SSL
-        - aws certificate manager provides a way to manage ,deploy and renew TLS or SSL certificates
-    - secure HTTP(HTTPS) creates a secure tunnel
-    # img here
+- encryption of data in transit(data moving across a network)
+    - tansport layer security(TLS)-Formely SSL
+    - aws certificate manager provides a way to manage ,deploy and renew TLS or SSL certificates
+- secure HTTP(HTTPS) creates a secure tunnel
+   ![transit encryption](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/e7acf71b-6289-4cc1-81de-d7b305622735)
+
 
 ### securing amazon s3 buckets and objects
 
@@ -126,7 +140,7 @@
     - Acess control lists(ACLs):A legacy access control mechansim
     - AWS Trusted Advisor buckt permission check
 
-## working to Ensure compliance
+## Working to Ensure compliance
 
 ### AWS complicance programs
 - customer are subject to many different security and compliance regulations and requirements

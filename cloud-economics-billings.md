@@ -25,3 +25,7 @@ Aws organizations is a service provided by aws that allows you to consolidate mu
 
 - Service Control Policies(SCPs):
     -SCPs provide a central way to manage and control the permissions of all accounts.
+
+### AWS Billings
+
+- aws billing dashboard

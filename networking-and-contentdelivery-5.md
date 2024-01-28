@@ -84,7 +84,9 @@
 - `NAT Gateways`
     - A NAT gateway is a Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.
     - `NOTE` Instance in the private subnet can establish outbound connections to the internet via the public subnet using `NAT`.
- 
+  
+ ![gateway2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/97d76f75-6f85-4b52-a7e4-3c09656b466d)
+
 ### Network ACLs
 - Networking ACLs manage access to a network. To do this, they provide instructions to switches and routers as to the kinds of traffic that are allowed to interface with the network. They also dictate what each user or device can do once they are inside.
 - In a way, an Access control lists (ACLs) is like a guest list at an exclusive club. Only those on the list are allowed in the doors.

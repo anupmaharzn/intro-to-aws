@@ -133,6 +133,8 @@
 
 ![acls](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/c8d8e6b7-cec6-4a5c-89e6-499f5b0a1c26)
 
+![acls2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/ee505ccd-82e2-456c-8c95-e2791872993a)
+
 
 ### Security Groups
 - A `security group controls the traffic` that is `allowed to reach and leave the resource` that it is associated with.

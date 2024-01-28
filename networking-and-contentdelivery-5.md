@@ -24,9 +24,17 @@
     - configuration of route tables and network gateways
 - Enables you to `customize the network configuration` for you VPC
 - enables you to use `multiple layer of security`
+- 
+![vpc1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/99300dbd-4be9-4e48-a342-7f74aede914f)
 
 ### IP addressing
+
+![vpc2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/1058bb3f-8dc4-493b-82e8-2a84f20ec4b4)
+
 ### Reserved IP address
+
+![vpc3](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/ac4d95e2-9042-4479-aec2-117f8801153b)
+
 ### Public IP address types
 - IP address is private in VPC.
 - you can also request public IP address to be assigned to virtual machine when you create a instance 
@@ -50,11 +58,15 @@
 - Its attribute follow when it is reattached to a new instance.
 
 - Each instance in your VPC has a `default network interface` that is assigned a private IPv4 address from the IPv4 address range of your VPC.
+  
+![vpc4](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/017d200b-42ec-40a5-a4ae-ceb69b9a7f1a)
 
 
-### Routeee tables and routes
+### Route tables and routes
 
 - A route table contains a set of rules(or routes) that `you can configure ` to direct network traffic from your subnet.
 - Each route specifies a destination and a target.(to or from your subnet)
 - By default, every route table contains a `local route` for communication within the VPC.
 - Each `subnet must be assocaited with a route table` (at most one).
+
+![vpc5](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/83459eac-4458-43b2-a88c-fe1ef7b05771)

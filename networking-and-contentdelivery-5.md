@@ -118,7 +118,20 @@
 ### VPC sharing
 - allows `multiple aws accounts` to `create` their applicaiton resources , such as amazon ec2 instances, amazon relational database services, amazon redshift clusters and aws lambda function into `shared` ,`centrally-managed` virtual private clouds `(VPCs)`.
 
+![vpcsharing](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/a33047bf-7189-4e04-b199-28563dbd1ee5)
+
 ### VPC peering
+- A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate with each other as if they are within the same network.
+
+![vpcpeering](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/eccba992-da3c-485d-8c33-c9eba9fe0852)
+
+### VPC endpoints
+- A VPC endpoint enables customers to ` privately connect ` to `supported AWS services` and `VPC endpoint services ` powered by AWS PrivateLink. Amazon VPC instances do not require public IP addresses to communicate with resources of the service. Traffic between an Amazon VPC and a service does not leave the Amazon network.
+
+![vpcendpoints](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/b59f12c8-4f73-4679-a93e-58e73091d055)
 
 
-
+### some of advance topic
+    - aws site-to-site VPN
+    - aws direct connect
+    - aws transit gateway

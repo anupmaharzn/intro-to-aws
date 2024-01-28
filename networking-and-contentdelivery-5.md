@@ -78,6 +78,9 @@
 
 ![vpc6](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/8b0537ad-9ea4-4f6e-bd72-2829f2efe875)
 
+![gateway1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/925dada8-b8b4-4d9d-87e4-e641a0a16174)
+
+
 - `NAT Gateways`
     - A NAT gateway is a Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.
     - `NOTE` Instance in the private subnet can establish outbound connections to the internet via the public subnet using `NAT`.

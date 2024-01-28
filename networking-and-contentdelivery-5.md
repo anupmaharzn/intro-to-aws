@@ -149,4 +149,5 @@
 
 `Note:Security groups and network ACLs are similar in that they allow you to control access to AWS resources within your VPC. But security groups allow you to control inbound and outbound traffic at the instance level, while network ACLs offer similar capabilities at the VPC subnet level. `
 
+![acls vs security group](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/8065e4db-96b2-4a62-9c46-a4a334b7945f)
 

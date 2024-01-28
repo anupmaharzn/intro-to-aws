@@ -95,3 +95,5 @@
 ![securitygroup](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/b5fd2ca2-b572-4f4a-9895-3ceb89cc6354)
 
 ![securitygroup1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/95e820bb-7808-4a04-89e9-dd6a3a2452a5)
+
+`Note:Security groups and network ACLs are similar in that they allow you to control access to AWS resources within your VPC. But security groups allow you to control inbound and outbound traffic at the instance level, while network ACLs offer similar capabilities at the VPC subnet level. `

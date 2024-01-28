@@ -70,3 +70,11 @@
 - Each `subnet must be assocaited with a route table` (at most one).
 
 ![vpc5](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/83459eac-4458-43b2-a88c-fe1ef7b05771)
+
+### Internet Gateway
+
+- An internet gateway is a device that allows you to connect your devices to the Internet.
+- In AWS an Internet Gateway is a VPC component that allows communication between the VPC and the Internet.
+
+![vpc6](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/8b0537ad-9ea4-4f6e-bd72-2829f2efe875)
+

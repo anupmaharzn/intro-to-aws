@@ -82,6 +82,7 @@
 
         - `Destination`: Paris
         - `Target`: US airport, fly to Paris.
+      
 ### Internet Gateway
 
 - An internet gateway is a device that allows you to connect your devices to the Internet.

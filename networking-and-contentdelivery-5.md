@@ -151,3 +151,20 @@
 
 ![acls vs security group](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/8065e4db-96b2-4a62-9c46-a4a334b7945f)
 
+## Amazon Route 53
+
+- Amazon route 53 is a highly available and scalable Domain Name System (DNS) web service.
+- Route 53 `connects` user requests to `internet applications ` running on AWS or on-premises.
+
+### Amazon Route 53 DNS resolution
+
+
+
+## Amazon CloudFront
+
+- Amazon CloudFront is a content delivery network (CDN) service build for high performance,security and developer convenience.
+
+### content delivery and network latency
+
+
+

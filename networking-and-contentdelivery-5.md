@@ -62,6 +62,8 @@
 ![vpc4](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/017d200b-42ec-40a5-a4ae-ceb69b9a7f1a)
 
 
+## VPC Networking
+
 ### Route tables and routes
 
 - A route table contains a set of rules(or routes) that `you can configure ` to direct network traffic from your subnet.
@@ -99,22 +101,6 @@
   
  ![gateway2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/97d76f75-6f85-4b52-a7e4-3c09656b466d)
 
-### Network ACLs
-- Networking ACLs manage access to a network. To do this, they provide instructions to switches and routers as to the kinds of traffic that are allowed to interface with the network. They also dictate what each user or device can do once they are inside.
-- In a way, an Access control lists (ACLs) is like a guest list at an exclusive club. Only those on the list are allowed in the doors.
-
-![networkacls](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/9008585a-d3de-4810-bfe5-c886c8eb074f)
-
-### Security Groups
-- A `security group controls the traffic` that is `allowed to reach and leave the resource` that it is associated with.
-- For example , after you associate a security group with an EC2 instance, it controls the inbound and outbound traffic for the instance.
-
-![securitygroup](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/b5fd2ca2-b572-4f4a-9895-3ceb89cc6354)
-
-![securitygroup1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/95e820bb-7808-4a04-89e9-dd6a3a2452a5)
-
-`Note:Security groups and network ACLs are similar in that they allow you to control access to AWS resources within your VPC. But security groups allow you to control inbound and outbound traffic at the instance level, while network ACLs offer similar capabilities at the VPC subnet level. `
-
 
 ### VPC sharing
 - allows `multiple aws accounts` to `create` their applicaiton resources , such as amazon ec2 instances, amazon relational database services, amazon redshift clusters and aws lambda function into `shared` ,`centrally-managed` virtual private clouds `(VPCs)`.
@@ -136,3 +122,23 @@
     - aws site-to-site VPN
     - aws direct connect
     - aws transit gateway
+
+## VPC Security
+
+### Network ACLs
+- Networking ACLs manage access to a network. To do this, they provide instructions to switches and routers as to the kinds of traffic that are allowed to interface with the network. They also dictate what each user or device can do once they are inside.
+- In a way, an Access control lists (ACLs) is like a guest list at an exclusive club. Only those on the list are allowed in the doors.
+
+![networkacls](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/9008585a-d3de-4810-bfe5-c886c8eb074f)
+
+### Security Groups
+- A `security group controls the traffic` that is `allowed to reach and leave the resource` that it is associated with.
+- For example , after you associate a security group with an EC2 instance, it controls the inbound and outbound traffic for the instance.
+
+![securitygroup](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/b5fd2ca2-b572-4f4a-9895-3ceb89cc6354)
+
+![securitygroup1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/95e820bb-7808-4a04-89e9-dd6a3a2452a5)
+
+`Note:Security groups and network ACLs are similar in that they allow you to control access to AWS resources within your VPC. But security groups allow you to control inbound and outbound traffic at the instance level, while network ACLs offer similar capabilities at the VPC subnet level. `
+
+

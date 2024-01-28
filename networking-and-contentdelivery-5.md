@@ -71,6 +71,17 @@
 
 ![vpc5](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/83459eac-4458-43b2-a88c-fe1ef7b05771)
 
+`NOTE`
+- `Destination`: the packet's final destination
+
+- `Target`: where the packet should go next, to get it one step closer to the intended destination.
+
+    - e.g.
+
+        - You are planning a business trip from the US to Paris.
+
+        - `Destination`: Paris
+        - `Target`: US airport, fly to Paris.
 ### Internet Gateway
 
 - An internet gateway is a device that allows you to connect your devices to the Internet.
@@ -102,3 +113,12 @@
 ![securitygroup1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/95e820bb-7808-4a04-89e9-dd6a3a2452a5)
 
 `Note:Security groups and network ACLs are similar in that they allow you to control access to AWS resources within your VPC. But security groups allow you to control inbound and outbound traffic at the instance level, while network ACLs offer similar capabilities at the VPC subnet level. `
+
+
+### VPC sharing
+- allows `multiple aws accounts` to `create` their applicaiton resources , such as amazon ec2 instances, amazon relational database services, amazon redshift clusters and aws lambda function into `shared` ,`centrally-managed` virtual private clouds `(VPCs)`.
+
+### VPC peering
+
+
+

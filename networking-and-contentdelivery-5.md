@@ -158,6 +158,9 @@
 
 ### Amazon Route 53 DNS resolution
 
+![amazonroute531](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/abbea57c-d749-4569-9158-88d6ac353caf)
+
+![amazonroute532](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/d6169a48-b4e3-4faa-9bf8-0f8ee2d04e07)
 
 
 ## Amazon CloudFront
@@ -166,5 +169,7 @@
 
 ### content delivery and network latency
 
+![cdn1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/293f2784-8d7f-4bc4-ada1-3823cf79ee09)
 
+![cdn2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/22c244b6-ca77-4f03-98ca-1fbc3385fbbb)
 

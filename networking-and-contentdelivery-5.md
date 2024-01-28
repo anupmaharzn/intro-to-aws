@@ -167,10 +167,13 @@
 
 - Amazon CloudFront is a content delivery network (CDN) service build for high performance,security and developer convenience.
 
-### content delivery and network latency
+### Content Delivery and Network Latency
 
 ![cdn1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/293f2784-8d7f-4bc4-ada1-3823cf79ee09)
 
 ![cdn2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/22c244b6-ca77-4f03-98ca-1fbc3385fbbb)
 
 ## Lab
+
+![vpc-lab](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/aa3fbfd4-96da-4182-a283-6eef37be1a5e)
+

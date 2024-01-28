@@ -173,3 +173,4 @@
 
 ![cdn2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/22c244b6-ca77-4f03-98ca-1fbc3385fbbb)
 
+## Lab

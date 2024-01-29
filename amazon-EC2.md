@@ -130,3 +130,6 @@
     - in a browser: `` http://169.254.169.254/latest/meta-data/``
     - in a terminal window: ``curl http://169.254.169.254/latest/meta-data/``
     
+### Lab Overview
+![ec2-lab](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/32b62f34-5989-4ad8-9f2f-56c8d126682a)
+

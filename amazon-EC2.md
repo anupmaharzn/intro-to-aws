@@ -1,12 +1,12 @@
 # Amazon Elastic Compute Cloud
 
- - Topics we gonna see for compute service 
+ - Topics we gonna cover
     - Amazon EC2
     - Elastic Load Balancing (ELB)
     - Amazon EC2 Auto Scaling
 
 - Other Compute services
-    #img
+    ![compute1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/10591926-249c-451f-8b99-b96691524e2a)
 
 
 ## Amazon EC2
@@ -19,35 +19,46 @@
 - you can control traffic to and from instances by using security group.
 
 ### 9 key decisions to make when you create an EC2 instance
-- 1. AMI (Amaon Machine Image)
+
+- 1. **`AMI`** (Amaon Machine Image)
     - template that is used to create an instance (contains windows or linux operating system)
     - often also has some software pre-installed
-- 2. Instance Type
+
+      
+- 2. **`Instance Type`**
     - the instance type that you choose determines 
         - Memory(RAM)
         - Processing power (CPU)
         - Disk space and disk type (Storage)
         - Network performance
-        #img
-        #img
-- 3. Network settings
+          
+     ![compute2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/5bbe2503-5086-4f20-a985-7237d6f71621)
+
+     ![compute3](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/a56b6094-730d-42a2-b079-21a8a77e5bda)
+
+- 3. **`Network settings`**
     - Network location where EC2 should be deployed.
     - Where should the instance be deployed?
         - Identify the VPC and optionlly the subnet.(if not assigned i will deployed in default VPC)
     - Should a public IP address be automatically assigned?
         - To make it internet-accessible.
-- 4. IAM role
+          
+- 4. **`IAM role`**
     - Will software on the EC2 instance need to interact with other AWS services ?
         - if yes, attach an appropriate IAM Role
     - An AWS identity and Access Management (IAM) role that is `attached `to an `EC2 instance `is kept in an `instance profile`.
     - you can also attach a role to instance that already exists.
-    #img
-- 5. User data
+      
+      ![compute4](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/501a8178-b944-4519-9cd9-91fe49004047)
+
+- 5. **`User data`**
     - Optionally specify a user data script at intance launch.
     - Use `user data` scripts to customize the runtime environment of your instance.
         - Script executes the first time the instance starts
-    #img
-- 6. Storage options
+          
+    ![compute5](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/fde73237-50d1-4f6b-981b-6d687a61d7ce)
+
+- 6. **`Storage options`**
     - Configure the `root volume`
         - where the guest OS is installed
     - For each volume,specify
@@ -65,17 +76,19 @@
         - Other options for storage(not for the root volume)
             - Mount an Amazon Elastic File System (Amazon EFS)
             - Connect to Amazon Simple Storage Service (Amazon S3)
-        #img
+              
+![compute6](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/91aa22de-9adb-4432-b6e3-6441638ced61)
 
-- 7. Tags
+
+- 7. **`Tags`**
     - A tag is label that you can assign to an AWS resource.
         - consists of a key and an optional value
     - Tagging is how you can attach metadata to an EC2 instance.
 
-- 8. Security group
+- 8.**`Security group`**
     - A security group is a set of firewall rules that control traffice to the instance
     
-- 9. Key pair
+- 9. **`Key Pair`**
     - At instance launch , you specify an existing key pair or create a new key pair
     - A key pair consists of
         - A `public key `that `aws stores `
@@ -89,12 +102,13 @@
 
 ### Another option to launch an EC2 instance with AWS CLI
 
-#img
+![compute7](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/eabd4ab1-910b-49c2-a4be-b40d55e2a79f)
 
 
 ### Amazon EC2 instance lifecycle
 
-#img
+![compute8](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/780bc146-687f-4b6f-9eeb-2955ab8ce122)
+
 
 ### Consider using an Elastic IP address
 
@@ -113,6 +127,6 @@
 ### EC2 instance metadata
 - instance metadata is data about your instance
 - while you are conneted to the instance, you can view it
-    - in a browser: - ` http://169.254.169.254/latest/meta-data/`
-    - in a terminal window: - `curl http://169.254.169.254/latest/meta-data/`
+    - in a browser: `` http://169.254.169.254/latest/meta-data/``
+    - in a terminal window: ``curl http://169.254.169.254/latest/meta-data/``
     

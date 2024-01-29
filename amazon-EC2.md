@@ -185,7 +185,8 @@
     - fault tolerance
     - elasticity: scale seamlessly 
 
-#img
+![autoscaling1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/b7bbf81d-fcb4-4d23-a378-4be7ca3dc3de)
+
 
 - **For More Detail**
     - `https://docs.aws.amazon.com/autoscaling/ec2/userguide/get-started-with-ec2-auto-scaling.html`
@@ -207,4 +208,4 @@
 
 ### Practise this Architecture
 
-#img
+![autoscaling2-practise](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/a4315695-aa5f-4456-b7db-115ce5b5b22c)

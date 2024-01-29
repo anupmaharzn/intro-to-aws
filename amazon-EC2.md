@@ -130,6 +130,9 @@
     - in a browser: `` http://169.254.169.254/latest/meta-data/``
     - in a terminal window: ``curl http://169.254.169.254/latest/meta-data/``
 
+### Lab Overview
+
+![ec2-lab](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/91b7472c-51e1-42b6-ae91-fdb363259f61)
 
 
     
@@ -139,7 +142,7 @@
 
     - `Application Load Balancer`
         - ALB operates at the application layer(layer 7) of the OSI model and is best sutied for ditributing HTTP/HTTPS, gRPC,Websockets.
-        #img
+   ![loadbalancer1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/b837b05b-cbdc-43d6-b5d9-1a924af605b9)
     - `Gateway Load Balancer`
         - GLB is designed fro routing traffic to third-party secrity appliances like firewalls and intrusion detection systems.
     - `Network Load Balancer`
@@ -155,13 +158,19 @@
  - Step 2: Register targets
  - Step 3: Configure a load balancer and a listener
  - Step 4: Test the load balancer
- #img
 
-Link for more detail: `https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-application-load-balancer.html`
+![loadbalancer2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/1e0b9e05-d0e7-4f01-9279-666f863894f3)
+
+
+**Link for more detail**: - `https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-application-load-balancer.html`
 
 - `Target Group`
     - Target groupos route request to individual registered targets, such as EC2 instanaces,using the protocol and port numbers that you specify.
     - Each target group is used to route requests to one or more registered targets.
+
+### Application Load Balancer Practise
+
+![applicationloadbalacer-practise](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/d772154f-ca12-4582-9fdd-0ad766bd633f)
 
 ## AWS EC2 Auto Scaling
     

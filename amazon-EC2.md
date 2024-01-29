@@ -167,10 +167,44 @@
 - `Target Group`
     - Target groupos route request to individual registered targets, such as EC2 instanaces,using the protocol and port numbers that you specify.
     - Each target group is used to route requests to one or more registered targets.
-
+- **`NOTE`**
+    - ** when we create application load balancer we need to have default + another new security group for incomming traffice from http port 80 (allow http request) or any other internet access **
 ### Application Load Balancer Practise
 
 ![applicationloadbalacer-practise](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/d772154f-ca12-4582-9fdd-0ad766bd633f)
 
 ## AWS EC2 Auto Scaling
     
+- `Auto Scaling Groups`
+
+- Amazon EC2 auto scaling helps you maintain application availability and allows you to `dynamically adjust `the `capacity` of your Amazon EC2 instances based on the demand for your applications.
+
+- commonly used for following secnarios:
+    - maintaining application availability
+    - cost optimization
+    - fault tolerance
+    - elasticity: scale seamlessly 
+
+#img
+
+- **For More Detail**
+    - `https://docs.aws.amazon.com/autoscaling/ec2/userguide/get-started-with-ec2-auto-scaling.html`
+
+
+- `NOTE`
+    - Instances of EC2 are typically created and managed using `Auto Scaling Policies`
+    - The Purpose of Amazon EC2 auto scaling is to autmatically adjust the number of instances in an `auto scaling group `based on `changes in demand `or other specified condition.
+- `While create the instance from autoscaling group we need **Lauch Template**`
+- `Amazon EC2 Launch Templates` provide a way to specify the configuration of an EC2 instance in a resuable format.
+    - A lauch template includes settings such as the
+        - `AMI`
+        - `instance type`
+        - `key pair`
+        - `security groups`
+        - `other launch configuration parameters`
+
+- `we just have to create one lauch template and auto scaling will automatically scale that instance into multiple instance`
+
+### Practise this Architecture
+
+#img

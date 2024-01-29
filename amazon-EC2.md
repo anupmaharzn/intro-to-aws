@@ -129,4 +129,39 @@
 - while you are conneted to the instance, you can view it
     - in a browser: `` http://169.254.169.254/latest/meta-data/``
     - in a terminal window: ``curl http://169.254.169.254/latest/meta-data/``
+
+
+
+    
+## Elastic Load Balancer
+
+- Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more availability zone (AZ)
+
+    - `Application Load Balancer`
+        - ALB operates at the application layer(layer 7) of the OSI model and is best sutied for ditributing HTTP/HTTPS, gRPC,Websockets.
+        #img
+    - `Gateway Load Balancer`
+        - GLB is designed fro routing traffic to third-party secrity appliances like firewalls and intrusion detection systems.
+    - `Network Load Balancer`
+        - NLB operates at the transport layer (layer 4) and is designed for handling TCP,UDP and TLS traffic.
+
+
+
+## Application Load Balancer for EC2 instance
+
+- To create a load balancer using the AWS Management Console, complete the following tasks.
+
+ - Step 1: Configure a target group
+ - Step 2: Register targets
+ - Step 3: Configure a load balancer and a listener
+ - Step 4: Test the load balancer
+ #img
+
+Link for more detail: `https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-application-load-balancer.html`
+
+- `Target Group`
+    - Target groupos route request to individual registered targets, such as EC2 instanaces,using the protocol and port numbers that you specify.
+    - Each target group is used to route requests to one or more registered targets.
+
+## AWS EC2 Auto Scaling
     

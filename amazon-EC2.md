@@ -1,0 +1,118 @@
+# Amazon Elastic Compute Cloud
+
+ - Topics we gonna see for compute service 
+    - Amazon EC2
+    - Elastic Load Balancing (ELB)
+    - Amazon EC2 Auto Scaling
+
+- Other Compute services
+    #img
+
+
+## Amazon EC2
+
+- Infrastructure as a service (Iaas)
+- Instance based
+- Virtual machnies (referred to as EC2 instances)
+- Provision virtual machines that you can manage as you choose.
+- Lauch instances from Amazon machine Images (AMI)
+- you can control traffic to and from instances by using security group.
+
+### 9 key decisions to make when you create an EC2 instance
+- 1. AMI (Amaon Machine Image)
+    - template that is used to create an instance (contains windows or linux operating system)
+    - often also has some software pre-installed
+- 2. Instance Type
+    - the instance type that you choose determines 
+        - Memory(RAM)
+        - Processing power (CPU)
+        - Disk space and disk type (Storage)
+        - Network performance
+        #img
+        #img
+- 3. Network settings
+    - Network location where EC2 should be deployed.
+    - Where should the instance be deployed?
+        - Identify the VPC and optionlly the subnet.(if not assigned i will deployed in default VPC)
+    - Should a public IP address be automatically assigned?
+        - To make it internet-accessible.
+- 4. IAM role
+    - Will software on the EC2 instance need to interact with other AWS services ?
+        - if yes, attach an appropriate IAM Role
+    - An AWS identity and Access Management (IAM) role that is `attached `to an `EC2 instance `is kept in an `instance profile`.
+    - you can also attach a role to instance that already exists.
+    #img
+- 5. User data
+    - Optionally specify a user data script at intance launch.
+    - Use `user data` scripts to customize the runtime environment of your instance.
+        - Script executes the first time the instance starts
+    #img
+- 6. Storage options
+    - Configure the `root volume`
+        - where the guest OS is installed
+    - For each volume,specify
+        - the size of the disk (in GB)
+        - the volume type
+            - SSDs or HDDs
+        - the volume will be deleted when the instance is terminated
+    - Storage options
+        - Amazon Elastic Block Store (amazon EBS)
+            - block-level storage volumes
+            - `you can stop the instance and star it again,and the data will still be there `
+        - Amazon EC2 `Instance Store`
+            - storage is provided on disks that are attached to the host computer where the EC2 instance is running.
+            - `if the instance stops,data stored here is deleted.`
+        - Other options for storage(not for the root volume)
+            - Mount an Amazon Elastic File System (Amazon EFS)
+            - Connect to Amazon Simple Storage Service (Amazon S3)
+        #img
+
+- 7. Tags
+    - A tag is label that you can assign to an AWS resource.
+        - consists of a key and an optional value
+    - Tagging is how you can attach metadata to an EC2 instance.
+
+- 8. Security group
+    - A security group is a set of firewall rules that control traffice to the instance
+    
+- 9. Key pair
+    - At instance launch , you specify an existing key pair or create a new key pair
+    - A key pair consists of
+        - A `public key `that `aws stores `
+        - A `private key file` (Eg .pem file) that `you store`
+    - It enables secure connections to the instance
+    - For Windows AMIs
+        - use the private key to obtain the admin password that you need to log in to your instance
+    - For Linux AMIs
+        - use the private key to use SSH to securely connect to you instance
+    
+
+### Another option to launch an EC2 instance with AWS CLI
+
+#img
+
+
+### Amazon EC2 instance lifecycle
+
+#img
+
+### Consider using an Elastic IP address
+
+- `Rebooting `an instance will `not change `any IP address or DNS hostnames
+- when an instance is `stopped `and then `started `again
+    - `the public ipv4 address and exteranl DNS hostname will change`
+    - `the private ipv4 address and internal DNS hostname do not change.`
+
+- If you require a `persistent public IP address`
+    - Associate an `Elastic IP address `with the instance.
+
+- Elastic IP address characteristics
+    - can be associated with instances in the Region as needed.
+    - reamins allocated to you account until you choose to release it.
+
+### EC2 instance metadata
+- instance metadata is data about your instance
+- while you are conneted to the instance, you can view it
+    - in a browser: - ` http://169.254.169.254/latest/meta-data/`
+    - in a terminal window: - `curl http://169.254.169.254/latest/meta-data/`
+    

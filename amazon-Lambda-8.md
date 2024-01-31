@@ -52,4 +52,4 @@
 
 ### LAB
 
-#img
+![lambda7](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/86a4e247-6d1a-4fbe-9207-7fd95fef8604)

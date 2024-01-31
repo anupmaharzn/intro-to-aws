@@ -5,7 +5,8 @@
 - AWS Lambda is `Event Driven` serverless compute service
 - `with Lambda `, you can execute your code in response to specific events,such as `changes to data` in an `Amazon S3 buckets` or `updates to a DynamoDB tables`
 
-#img
+![lambda1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/c05792d6-f580-4569-aa20-da80adc2c522)
+
 
 
 - `Features` of AWS Lambda
@@ -24,19 +25,21 @@
 - `Configure other AWS services as event source to invoke your function.`
 -Alternatively,invoke a lambda function from the Lambda console,AWS SDK or AWS CLI.
 
-#img
+![lambda2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/0f579184-1eb5-4979-ad88-3bfd919b323f)
+
 
 ## AWS Lambda function configuration
 
-#img
+![lambda3](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/31580743-de5a-4b27-b895-82bdbee3aa7a)
+
 
 ## UseCase Example Diagram
 
-#img
+![lambda4](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/3c505ab5-978b-4fcb-b8be-939f4731ccea)
 
-#img
 
+![lambda5](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/bef8297d-6882-41c0-a561-a3914de936d2)
 
 ## AWS Lambda Quotas
 
-#img
+![lambda6](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/160fccb7-0033-4342-a92d-22c37d3a8f8f)

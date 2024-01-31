@@ -43,3 +43,13 @@
 ## AWS Lambda Quotas
 
 ![lambda6](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/160fccb7-0033-4342-a92d-22c37d3a8f8f)
+
+
+
+## Lambda Practise
+
+- Lambda is just an executor
+
+### LAB
+
+#img

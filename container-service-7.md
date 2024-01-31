@@ -4,7 +4,9 @@
 - Containers are a method of OS virtualization
 
 - Allow the packaging and isolation of applications with their enitre runtime environment(process isolation)
-#img
+  
+![container](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/b8fb5dfc-4a3f-45be-9a97-ebad6d77f799)
+
 
 ### Docker
 - `Docker `is software platform that enables you to build , test, and deploy applications quickly
@@ -16,7 +18,9 @@
 ## Container vs Virtual Machines
 
 - `VM` runs directly on hypervisor but `container` run on any operting system if they have appropriate kernal feature to support docker host software and docker daemon is present.
-#img
+- 
+![container1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/4f86ed97-b591-4f28-8d47-d134eb014dce)
+
 
 
 
@@ -35,9 +39,11 @@
     - Amazon EBS volumes
     - IAM roles
 
-#img
+![container2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/8a6b6781-08fe-4309-9b4b-99825b0f74c5)
 
-#img
+
+![container3](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/56c855b6-232a-4d17-835d-59ac194d849d)
+
 
 
 ## Kubernetes
@@ -65,8 +71,8 @@
     - manage cluster of amazon EC2 compute instances
     - run containers that are orchestrated by kubernates on those instance.
 
-
-
 ## Amazon Elastic Container Registry
 
 - Amazon ECR is a fully managed Docker container registry that makes it easy for developers to store,manage and deploy docker container images.
+
+![container4](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/a2ee8c18-5b0c-4917-a83e-5f0349901a35)

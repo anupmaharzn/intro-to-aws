@@ -15,7 +15,7 @@
         - This provides block-level storage volumes for use with `Amazon EC2 instance`.It's suitable for database storage, boot volumes, and more.
 
     
-    - ***Amazon EFS (Elastic File System) ***
+    - ***Amazon EFS (Elastic File System)***
         - This is a scalable file storage service for use with `Amazon EC2 instances`
 
 
@@ -26,10 +26,11 @@
 
 
 - AWS storage options
-    -` block storage `which is Amazon EBS
-    -` object storage `which is Amazon S3
+    - ` block storage `which is Amazon EBS
+    - ` object storage `which is Amazon S3
 
-#img
+![storage1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/ce23beba-5d96-4f0a-97c2-45f85dd5d1b4)
+
 
 
 - Amazon EBS enables you to` create individual storage volumes `and `attach them `to an Amazon EC2 instance
@@ -42,10 +43,12 @@
 
 - EBS is commonly used for various purposes, including storing data for applications, databases (both relational and NoSQL), and providing storage for EC2 instances
 
-#img
+![storage2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/130274a2-4a3b-4d5b-ab31-6092d67c9794)
+
 
 ## Lab Overview
-#img
+![storage3](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/aadae513-c168-4a8a-ac3c-ed4dc90036b7)
+
 
     - create an amazon ebs volume
     - attach and mount your volumne to an EC2 instance
@@ -78,7 +81,8 @@
     - `Bucket` is a fundamental container for storing and organizing objects.
     - It is a top-level container with a `globally unique name ` within the S3 service.
 
-#img
+![storage4](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/3ac70579-6a7b-4b94-a718-ad7153604adf)
+
 
 - `path-style` url endpoint is normally used when you need to access objects
 - `virtual-hosted-style` url endpoint is used when you are using `bucket as a website` for static data.
@@ -100,12 +104,12 @@
 - Also works well for big data and analytics,media processing workflows, content management, web serving etc
 
 
-#img
+![storage5](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/09b14ff2-6145-4d45-828e-e58d55be0ce9)
 
+![storage6](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/3dafd3da-f1b7-4d9b-862e-a74a43e5c2b6)
 
-#img
+![storage7](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/4ab153f0-c6c4-4bd1-9360-640c69b740d8)
 
-#img
 
 
 # Amazon S3 Glacier
@@ -114,7 +118,8 @@
 
 - In S3 Glacier, data is organized into `vaults` and each valut contains archives. An `archive` is essentially a file and each archive can be up to `40 terabytes` in size.
 
-#img
+![storage8](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/61d4bc3d-ab47-4502-bb65-4ba54cdb1f72)
+
 
 - use cases
     - media asset archiving
@@ -124,7 +129,11 @@
     - restful web services
     - java or .net sdks
     - amazon s3 with lifecyle policies
-        #img
+      
+        ![storage9](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/1f56c6a3-0451-449c-95fc-3535a59d2922)
 
 
-#img
+
+![storage10](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/50bcb993-6d4e-49f1-a6fe-0fe7a72f02ff)
+
+

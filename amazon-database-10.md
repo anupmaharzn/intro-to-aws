@@ -19,34 +19,46 @@
 ## Amazon RDS
 
 - Unmanaged vs managed service
-#img
+
+![database1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/fd53ac59-1948-46a1-a2e7-dd4157716708)
+
 
 - `if you want to have unmanaged database you can configure it in EC2 instance`
 
 
 - Challenges of relational databases
 
-#img
+![database2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/5988eb6a-f793-45b1-b768-6da100d30818)
+
 
 - Solution 
 
-#img
+![database3](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/3886513c-6db1-4e7c-95d2-74d6d8ee0438)
+
 
 - Managed services responsibilities
 
-#img
+![database4](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/1d1f45d9-5595-4f07-9fbb-6f67811a3784)
+
 
 
 - Amazon RDS DB instances
 
-#img
+![database5](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/72734fd0-5d95-4152-b804-6a18b14db25e)
+
 
 - ways you can configure your infrastrucutre
 
-#img
+![database6](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/83be5f75-19bb-4872-8d1a-bab999a64a1a)
 
-#img
+
+![database7](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/bbc4633a-ca1a-473e-adac-a902abd0fea6)
+
 
 
 # RDS lab (Build a Database Server)
 
+![database8-lab](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/005f6d20-f40d-44e5-9f35-3b721692e189)
+
+
+![database9-lab](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/d49defa5-81ba-4213-8bcc-68adbe233363)

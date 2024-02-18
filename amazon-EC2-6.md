@@ -85,7 +85,7 @@
         - consists of a key and an optional value
     - Tagging is how you can attach metadata to an EC2 instance.
 
-- 8.**`Security group`**
+- 8. **`Security group`**
     - A security group is a set of firewall rules that control traffice to the instance
     
 - 9. **`Key Pair`**

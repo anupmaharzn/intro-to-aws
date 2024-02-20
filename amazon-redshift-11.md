@@ -102,6 +102,8 @@
      )
 SORTKEY(column1, column2);`
 
+![sortkey](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/c357afcb-ec2b-43d7-9d5a-69c48648c911)
+
 - `Distributed Key`
     - The Distribution Key `determines` `how data` is distributed across the `compute nodes` in the cluster.
 
@@ -115,5 +117,6 @@ SORTKEY(column1, column2);`
 )
 DISTKEY(column1);`
 
+![distkey](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/24fc45e9-f110-428f-947e-f012f1d15d13)
 
-# practical 
+# Hands on Practise 

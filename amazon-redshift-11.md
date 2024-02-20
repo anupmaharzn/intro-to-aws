@@ -16,9 +16,11 @@
 ## Architecture
 
 
-#img
+![amazon-redshift](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/298fc954-afdd-4b11-b3a6-c3d6264e3b6d)
 
-#img2
+
+![aws-arch](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/a7fe3aac-dc49-4caf-863e-9836159ff5ad)
+
 
 
 - **Client applications**

@@ -81,12 +81,39 @@
 
 ## additional concepts in Amazon Redshift
 
-- Column storage
+- `Column storage`
     - columner storage
     - essential factor in optimizing query performance and resulting in quicker outputs.
 
-- Compression
+- `Compression`
     - compression is a column-level operation which decreases storage requirements.
+
+`
+*In Amazon Redshift, both the Sort Key and the Distribution Key play crucial roles in optimizing query performance by organizing and distributing data effectively across the cluster's Compute nodes.*
+`
+- `Sort key`
+    - The Sort Key determines the `order` in which data is `physically stored on disk` within each `compute node`.
+    - It's used to `optimize` query performance, especially for `range-restricted queries`, `aggregations`, and `joins`.
+
+    - `CREATE TABLE example_table (
+    column1 INT,
+    column2 VARCHAR(50),
+    column3 DATE
+     )
+SORTKEY(column1, column2);`
+
+- `Distributed Key`
+    - The Distribution Key `determines` `how data` is distributed across the `compute nodes` in the cluster.
+
+    - Redshift `provides` several distribution styles, including `EVEN`, `KEY`, and `ALL`.
+
+    - `
+    CREATE TABLE example_table (
+    column1 INT,
+    column2 VARCHAR(50),
+    column3 DATE
+)
+DISTKEY(column1);`
 
 
 # practical 

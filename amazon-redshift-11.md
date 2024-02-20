@@ -74,10 +74,10 @@
 
 - `Databases`
 
-- A cluster `contains` `one or more databases`.
-- User data is stored on the `compute nodes` of the Redshift cluster.
-- your `Sql client` communicates with the `leader node`, which in turn `coordinates` query run with the compute nodes.
-- `Compute nodes` are responsible for processing queries and coordinating the execution of those queries.
+    - A cluster `contains` `one or more databases`.
+    - User data is stored on the `compute nodes` of the Redshift cluster.
+    - your `Sql client` communicates with the `leader node`, which in turn `coordinates` query run with the compute nodes.
+    - `Compute nodes` are responsible for processing queries and coordinating the execution of those queries.
 
 ## additional concepts in Amazon Redshift
 

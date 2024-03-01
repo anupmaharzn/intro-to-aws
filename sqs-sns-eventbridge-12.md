@@ -22,7 +22,8 @@
         - mechanism by which consumers(or subscriber,receiver) check a message queue for new messages.( check in queue if there is any message )
 
     
-#image
+![SQS](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/30e21feb-49ab-4db5-adfa-da9121b30e63)
+
 
 
 ## SNS
@@ -51,7 +52,8 @@
     - **Fan-out Pattern**: SNS enables the fan-out pattern, where a `single message` can be delivered to `multiple subscribers `(endpoints) simultaneously.
 
 
-#Image1
+![SNS1](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/2e37c702-80cb-46b2-8850-d17d9869854b)
+
 
 
 - enter the topic and exit topic very quickly unlike SQS.
@@ -65,7 +67,8 @@
 - `one of the solutions` is to use `SQS queue`
 
 
-#image2
+![SNS2](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/ede1f9f1-7900-44f6-8539-11ef689301dd)
+
 
 
 
@@ -91,11 +94,12 @@
 
 - Amazon EventBridge allows up to 5 targets per rule.
 
-#img
+![eventbrige](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/3f5a1170-9a5e-4e9d-8571-516a76462149)
 
 
 
-## use case (which to use where)
 
+## use case (When to use What)
 
-#img
+![diff](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/569f10f8-5bf0-4e76-8053-70be3c223dc6)
+

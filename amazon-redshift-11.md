@@ -74,8 +74,8 @@
 
 - `Databases`
 
-    - A cluster `contains` `one or more databases`.
-    - User data is stored on the `compute nodes` of the Redshift cluster.
+    - A cluster `contains` `one database`.
+    - User data in Amazon Redshift is primarily stored on the disk storage associated with the compute nodes of the cluster.
     - your `Sql client` communicates with the `leader node`, which in turn `coordinates` query run with the compute nodes.
     - `Compute nodes` are responsible for processing queries and coordinating the execution of those queries.
 
